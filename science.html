@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Interstellar – Wissenschaft</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="img/favicon.webp" type="image/x-icon">
+
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a href="index.html" class="brand">
+        <img src="img/Interstellar-Logo.png" alt="Interstellar Logo" class="brand-logo">
+      </a>
+
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Start</a>
+        <a href="story.html" class="nav-link">Film &amp; Story</a>
+        <a href="science.html" class="nav-link active">Wissenschaft</a>
+        <a href="media.html" class="nav-link">Galerie</a>
+        <a href="soundtrack.html" class="nav-link">Soundtrack</a>
+        <a href="impressum.html" class="nav-link">Impressum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="wrap">
+      <section class="section fade-in">
+        <h1>Wissenschaft im Film</h1>
+        <p class="section-lead">
+          Interstellar nimmt sich künstlerische Freiheiten, aber viele Kerngedanken stammen
+          direkt aus der modernen Physik. Der Film macht sichtbar, was sonst nur Gleichungen erzählen.
+        </p>
+      </section>
+
+      <section class="science-grid">
+        <article class="panel fade-in">
+          <h2>Wurmlöcher</h2>
+          <p>
+            Ein Wurmloch ist eine theoretische Abkürzung durch die Raumzeit. Anstatt eine
+            gerade Linie durch den dreidimensionalen Raum zu fliegen, faltet man den Raum
+            und verbindet zwei Punkte direkt.
+          </p>
+          <p class="panel-note">
+            Im Film schwebt das Wurmloch wie eine glatte, schimmernde Kugel bei Saturn – ein Fenster in eine andere Galaxie.
+          </p>
+        </article>
+
+        <article class="panel fade-in">
+          <h2>Gargantua</h2>
+          <p>
+            Gargantua ist ein rotierendes Schwarzes Loch (Kerr-Loch), dessen Gravitation Licht
+            und Zeit krümmt. Die Darstellung im Film basiert auf tatsächlichen Berechnungen
+            von Physiker Kip Thorne.
+          </p>
+          <p class="panel-note">
+            Die hellen Lichtbögen sind verzerrte Sterne und Gas, die hinter dem Schwarzen Loch liegen, aber zu uns hin gebogen werden.
+          </p>
+        </article>
+
+        <article class="panel fade-in">
+          <h2>Zeitdilatation</h2>
+          <p>
+            In der Nähe massereicher Objekte vergeht Zeit langsamer – ein Effekt der Allgemeinen
+            Relativitätstheorie. Auf Millers Planet kreist die Oberfläche so dicht an Gargantua,
+            dass eine Stunde mehreren Jahren auf der Erde entspricht.
+          </p>
+          <p class="panel-note">
+            Zeit wird keine feste Größe mehr, sondern hängt davon ab, wo du bist.
+          </p>
+        </article>
+      </section>
+
+      <section class="section fade-in time-tool">
+        <h2>Zeitdilatations-Rechner</h2>
+        <p>
+          Spiele mit einer vereinfachten Version von Millers Planet: Jede Stunde dort
+          bedeutet in diesem Modell etwa sieben Jahre auf der Erde.
+        </p>
+        <label for="hoursInput">Stunden nahe Gargantua:</label>
+        <input type="range" id="hoursInput" min="0" max="10" value="1">
+        <span id="hoursValue">1</span> h
+        <p class="time-result">
+          Auf der Erde vergehen ungefähr <strong><span id="yearsResult">7</span> Jahre</strong>.
+        </p>
+        <p class="time-note">
+          Hinweis: Diese Rechnung ist stark vereinfacht und dient nur zur Veranschaulichung des Effekts.
+        </p>
+      </section>
+
+      <section class="section fade-in">
+        <h2>Mehr als nur Physik</h2>
+        <p>
+          Interstellar deutet an, dass hochentwickelte Wesen die Raumzeit so manipulieren
+          können, dass Zeit zu einem begehbaren Raum wird. Der Tesserakt am Ende des Films
+          übersetzt ein physikalisches Konzept in ein emotionales Bild: Erinnerungen werden begehbar.
+        </p>
+        <p class="quote">
+          Vielleicht sind „sie“ nur wir selbst – weit genug in der Zukunft, um unserer Vergangenheit helfen zu können.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <button class="to-top" id="toTopBtn" aria-label="Nach oben scrollen">↑</button>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Inoffizielle Fan-Seite zu Interstellar – nur zu Demonstrationszwecken.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
